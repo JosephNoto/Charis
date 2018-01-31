@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: 15em;
+  background-color:  rgba(255,255,255,0.1);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  transition: all ease-in-out 300ms;
+  -webkit-transition: all ease-in-out 300ms;
+}
+
+nav ul {
+  padding-top: 15em;
+  padding-left: 2em;
+
+}
+nav ul li {
+  list-style: none;
+  text-decoration: none;
+  padding: 10px; 0px;
+}
+
+nav ul li a {
+
+  font-size: 25px;
+  text-align: center;
+  font-family: arial;
+  font-weight: 400;
+  color: #272727;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    background-color: rgba(255,255,255,0.3);
+
+}
+
+#toggleMenu  {
+  margin-left: 8px;
+  margin-top: 8px;
+  width: 35px;
+  height: 35px;
+  background-color: rgba(255,255,255,0.3);
+  background-image: url(menuIcon.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1050;
+  cursor: pointer;
+
+  transition: all ease-in-out 300ms;
+  -webkit-transition: all ease-in-out 300ms;
+}
+
+#toggleMenu:hover {
+  opacity: 0.7;
+}
+
+body{
+
+  font-family: 'Abel', sans-serif;
+}
+
+#pageOne h1{
+  margin-top: 3em;
+  font-family: 'Pacifico', cursive;
+  font-size: 6em;
+  text-align: center;
+}
+
+div#pageOne{
+  background: url("https://images.unsplash.com/photo-1483354483454-4cd359948304?dpr=1&auto=compress,format&fit=crop&w=1199&h=800&q=80&cs=tinysrgb&crop=");
+  height: 61em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  }
+
+  #date {
+    font-size: 2em;
+    padding-top: 5px;
+    padding-right: 5px;
+
+  }
+
+#projects h2{
+  font-family: 'Abel', sans-serif;
+  font-size: 5em;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.container-1{
+  display: flex;
+  margin-bottom: 4em;
+}
+
+.box-1 {
+  height: 200px;
+  background-color: red;
+  padding-right: 3px;
+  padding-left: 3px;
+  flex: 1;
+}
+.box-2 {
+  background-color: blue;
+  flex: 1;
+}
+.box-3 {
+  background-color: yellow;
+  flex: 1;
+}
